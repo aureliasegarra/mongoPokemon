@@ -13,7 +13,7 @@ app.use((req, res, next) => {
 });
 
 app.use((req, res, next) => {
-    res.json({ message: 'Request well recieved!' });
+    res.json({ message: 'Request recieved!' });
     next();
 });
 
